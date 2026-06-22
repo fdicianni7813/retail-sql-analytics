@@ -8,7 +8,7 @@ While Cured Meat recorded the highest sales volume with 584 units sold, it ranke
 
 Conversely, Olive Oil generated the lowest sales volume with 289 units sold but ranked third in profitability.
 
-These findings suggest that higher sales volumes do not necessarily translate into higher profits and highlight the importance of analyzing multiple KPIs when evaluating business performance.
+These findings suggest that higher sales volumes do not necessarily translate into higher profits and highlight the importance of evaluating multiple KPIs when assessing business performance.
 
 ---
 
@@ -16,9 +16,9 @@ These findings suggest that higher sales volumes do not necessarily translate in
 
 Wine emerged as the strongest business category, ranking first in both revenue and profit despite not having the highest sales volume.
 
-Olive Oil showed an interesting pattern: although it recorded the lowest sales volume, it ranked among the top three categories in both revenue and profit. This suggests higher prices or stronger profit margins.
+Olive Oil showed an interesting pattern: although it recorded the lowest sales volume, it ranked among the top three categories in both revenue and profit. This suggests stronger margins and a higher value per transaction.
 
-Conversely, Cured Meat generated the highest sales volume but ranked lower in profitability, highlighting that sales quantity alone is not sufficient to assess business performance.
+Conversely, Cured Meat generated the highest sales volume but ranked lower in profitability, reinforcing the idea that sales quantity alone is not sufficient to evaluate business success.
 
 ---
 
@@ -34,11 +34,11 @@ These findings indicate that the success of the Wine category is driven not only
 
 ## Inventory Risk Analysis
 
-The inventory analysis identified 139 records with fewer than 20 units remaining in stock.
+The inventory analysis identified 139 transaction records associated with stock levels below 20 units.
 
-Among them, 7 products were already out of stock, potentially resulting in missed sales opportunities and reduced customer satisfaction.
+Further investigation revealed several products with critically low inventory levels, including a number of highly profitable items.
 
-Additionally, several highly profitable products were found to have critically low inventory levels, creating a potential risk for future revenue generation.
+Among them, 7 products had already reached zero stock, potentially resulting in missed sales opportunities and reduced customer satisfaction.
 
 These findings highlight the importance of proactive inventory management and stock replenishment strategies.
 
@@ -66,10 +66,22 @@ This suggests that customer value is influenced not only by purchase frequency b
 
 ## Customer Segmentation
 
-Customer segmentation revealed a highly concentrated distribution of value.
+Customer segmentation revealed a highly concentrated distribution of customer value.
 
 Only 4 customers were classified as High Value, while 25 customers belonged to the Medium Value segment.
 
-The remaining 587 customers were classified as Low Value, indicating that a relatively small group of customers contributes disproportionately to overall business profitability.
+The remaining 587 customers were classified as Low Value, indicating a highly concentrated distribution of value within the dataset.
 
-This pattern highlights the importance of identifying and retaining high-value customers through targeted business strategies.
+This pattern suggests that a relatively small group of customers may contribute a substantial share of overall profitability and therefore deserves closer attention from a business perspective.
+
+---
+
+## Overall Business Perspective
+
+The analysis demonstrated that business performance cannot be evaluated through a single KPI.
+
+Several categories with high sales volumes did not generate the highest profits, while some lower-volume categories proved strategically important due to stronger margins and profitability.
+
+The findings also highlighted the importance of inventory monitoring and customer segmentation, showing how operational and customer-related factors can directly influence future business performance.
+
+Overall, the project illustrates how SQL can be used not only to retrieve data, but also to support business-oriented decision making through structured analysis and reporting.
