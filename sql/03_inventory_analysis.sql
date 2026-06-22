@@ -39,3 +39,13 @@ FROM retail_sales
 GROUP BY product_name, category
 HAVING current_stock < 20
 ORDER BY total_profit DESC;
+
+-- Categories with highest number of low-stock products
+
+SELECT
+    category,
+    COUNT(*) AS low_stock_products
+FROM retail_sales
+WHERE stock_remaining < 20
+GROUP BY category
+ORDER BY low_stock_products DESC;

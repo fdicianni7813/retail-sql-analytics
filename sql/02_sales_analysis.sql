@@ -35,3 +35,12 @@ FROM retail_sales
 GROUP BY product_name, category
 ORDER BY total_profit DESC
 LIMIT 10;
+
+-- Average profit per transaction by category
+
+SELECT
+    category,
+    ROUND(AVG(profit), 2) AS avg_profit
+FROM retail_sales
+GROUP BY category
+ORDER BY avg_profit DESC;
